@@ -5,7 +5,8 @@
 name: Sync with G-Node, update Superdataset and export to S3
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
+  workflow_dispatch: {}
 
 jobs:
   update_superdataset:
